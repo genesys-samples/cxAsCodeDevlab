@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Genesys Workshop on Documentation for Hugo Learn Theme</title>
-    <link>https://genesys-samples.github.io/</link>
-    <description>Recent content in Genesys Workshop on Documentation for Hugo Learn Theme</description>
+    <title>CX as Code and Terraform on Documentation for Hugo Learn Theme</title>
+    <link>https://genesys-samples.github.io/020-cx-as-code-and-terraform.html</link>
+    <description>Recent content in CX as Code and Terraform on Documentation for Hugo Learn Theme</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://genesys-samples.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://genesys-samples.github.io/020-cx-as-code-and-terraform/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CX As Code</title>
       <link>https://genesys-samples.github.io/020-cx-as-code-and-terraform/10_first.html</link>
