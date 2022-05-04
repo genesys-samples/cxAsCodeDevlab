@@ -6,7 +6,7 @@ weight: 20
 
 ## What is CX as Code?
 
-CX as Code is a configuration tool that allows you to define Genesys Cloud Objects such as Queues Skills, Users, etc. in plain text files and then apply that configuration across multiple Genesys CX organizations
+CX as Code is a configuration tool that allows you to define Genesys Cloud Objects such as Queues, Skills, Users, etc. in plain text files and then apply that configuration across multiple Genesys Cloud CX organizations.
 
 ![CXasCodeOverview](/images/CXasCodeOverview.jpg)
 
@@ -21,15 +21,15 @@ CX as Code resources are used to create configuration components using various I
 
 ## CX as Code Data Sources
 
-Data Sources are simelar to GET Requests, allowing you to GET refrencable information that exists on the platform to be refrenced within resources by component name as shown below
+Data Sources are simelar to GET Requests, allowing you to GET referencable information that exists on the platform to be referenced within resources by component name as shown below.
 
-- In the data source below (see image), we are retrieving the welcome greeting by its name "Welcome_Greeting", this can be then refrenced in the previous resource example to populate the whisper prompt for the queue
+- In the data source below (see image), we are retrieving the welcome greeting by its name "Welcome_Greeting", this can then be refrenced in the previous resource example to populate the whisper prompt for the queue. 
 
 ![Image](/images/CXDataSource.PNG)
 
 
 ## Auth Access Requirements
 
-Within resources you will see a defined list of API access requirements for the auth client you've constructted which will outline the permissions your auth client requires to execute the sepcific resource you are reviewing
+Within resources you will see a defined list of API access requirements for the O Auth client you've constructted which will outline the permissions your O Auth client requires to execute the sepcific resource you are reviewing.
 
 ![Image](/images/CXAuthReq.PNG)

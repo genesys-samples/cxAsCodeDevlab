@@ -10,7 +10,11 @@ You may be looking at some of the resource articles, or have skipped ahead a few
 
 While this workshop is intended to provide a foundational knowledge of CX as Code, the scope of CX as Code is well beyond spending 4 hours building a skill.
 
-The Genesys Cloud administrative functions are designed to be incredibly simple, but 
+The Genesys Cloud administrative functions are designed to be incredibly simple, but CX as Code can be a key tool for businesses if any of the following are important to you:
+
+1. Immutable infrastructure
+2. Provisioning, configuration management and DevOps tasks
+3. Buidling a CI/CD pipeline
 
 ### Multi-Org Configuration
   * CX as Code allows you to build once and deploy everywhere, accelerating multi-org deployments or configuration changes
