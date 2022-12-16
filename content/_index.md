@@ -1,21 +1,21 @@
 ---
-title: "Genesys CX as Code Workshop"
+title: "Taller Genesys CX as Code"
 chapter: true
 weight: 90
 ---
 
-# Genesys CX as Code Workshop
-## Welcome
+# Taller Genesys CX as Code
+## Bienvenido
 
-The goal of the workshop is to introduce the newest tool to the Genesys Cloud developer ecosystem. In this workshop, we will be configuring and executing resources sourced from the Genesys Github repository.
+El objetivo del taller es presentar la herramienta más reciente al ecosistema de desarrolladores de Genesys Cloud. En este taller, configuraremos y ejecutaremos recursos procedentes del repositorio Genesys Github.
 
-CX as Code is primarily used as a tool to easily and efficnietly manage multiple deployments of Genesys CX for configuration and changes. Effectively, utilizing CX as code would allow the development of a CI/CD pipeline and utilize a DevOps methodology in the administration and deployment of multiple organizations globally. 
+CX as Code (CX como código) se utiliza principalmente como una herramienta para gestionar de forma fácil y eficiente múltiples despliegues de Genesys CX para configuración y cambios. Efectivamente, la utilización de CX as code permitiría el desarrollo de base de configuración CI/CD y utilizar una metodología DevOps en la administración y despliegue de múltiples organizaciones a nivel global. 
 
-The CX as code leverages a DevOps methdology to allow changes and configurations to be rapidly deployed to orgs in a matter of seconds, rather than making individual changes within each org bringing another level of efficiency to your organization. 
+El CX as Code aprovecha una metodología DevOps para permitir que los cambios y las configuraciones se desplieguen rápidamente en las organizaciones en cuestión de segundos, en lugar de realizar cambios individuales en cada organización, lo que aporta otro nivel de eficiencia a su organización. 
 
-This course will cover getting started with the basic concepts of CX as code introducing you to the various tools at your disposal such as terraform, IDE's (VS Code), and Oauth at a ground level. This course is expected to take 4 hours or less. 
+Este curso cubrirá el inicio con los conceptos básicos de CX as Code introduciéndole a las diversas herramientas a su disposición, tales como terraform, IDE (VS Code), y Oauth en un nivel básico. Se espera que este curso dure 4 horas o menos. 
 
-Once you have successfully completed this course, you will have the foundations to move on in building your own CI/CD pipeline!
+¡Una vez que haya completado con éxito este curso, usted tendrá las bases para seguir adelante en la construcción de su propio pipeline de CI / CD!
 
 ![image](/images/Developerimage.jpg)
 

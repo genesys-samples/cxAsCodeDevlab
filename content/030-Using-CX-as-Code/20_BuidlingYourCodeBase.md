@@ -1,18 +1,18 @@
 ---
-title: "Building Your Code Base"
+title: "Construya su código base"
 chapter: false
 weight: 20
 ---
 
-## Setting up your file structure
+## Configurar la estructura de archivos
 
-From here, we will be starting from scratch with two terraform scripts and how to get started with terraform. Below you will see two separate terraform files you will need to create. Within VS Code, create new folders with the naming convention below:
+A partir de aquí, vamos a empezar desde cero con dos scripts terraform y cómo empezar con terraform. A continuación verá dos archivos terraform separados que necesitará crear. Dentro de VS Code, cree nuevas carpetas con la convención de nomenclatura de abajo:
 
-Create two files in VS code: 
+Cree dos archivos en VS code: 
 1. Variables.tf
 2. Main.tf
 
-Copy the code snippit below and paste it into your Variables.tf file. Once copied over you will need to enter your Oauth client ID and secret with the information from the Oauth client you created in the previous step. You will also need to replace the [AWS Region](https://help.mypurecloud.com/articles/aws-regions-for-genesys-cloud-deployment/) (found in the AWS region name column in the linked article) with the AWS region your Genesys Cloud org resides in
+Copie el siguiente fragmento de código y péguelo en su archivo Variables.tf. Una vez copiado tendrá que introducir su ID y secreto de cliente de Oauth con la información del cliente de Oauth que creó en el paso anterior. También tendrá que reemplazar la [Región de AWS](https://help.mypurecloud.com/articles/aws-regions-for-genesys-cloud-deployment/) (que se encuentra en la columna del nombre de la región de AWS en el artículo vinculado) con la región de AWS en la que reside su org de Genesys Cloud.
 
 ```
 variable "oauthclient_id" {
@@ -27,7 +27,7 @@ variable "aws_region" {
 }
 ```
 
-Copy the code snippit below and paste it into your Main.tf file. This code snip contains your Oauth reference, providers and a resource to construct a routing skill
+Copie el fragmento de código a continuación y péguelo en su archivo Main.tf. Este fragmento de código contiene su referencia de Oauth, proveedores y un recurso para construir una habilidad de enrutamiento
 
 ```
 terraform {
@@ -51,33 +51,33 @@ resource "genesyscloud_routing_skill" "test_skill" {
 }
 
 ```
-## Running the Terraform Commands
+## Ejecución de los comandos de Terraform
 
-Open up a terminal in Visual Studio Code.
+Abra una terminal en Visual Studio Code.
 
 ![sdsd](/images/CXTerminal.PNG)
-In your terminal, you will run a series of three terraform commands. 
+En su terminal, ejecutará una serie de tres comandos de terraform.
 
-The first that you will need to run is: 
+Lo primero que tendrá que ejecutar es:
 ```
 terraform init
 ```
-This should initialize terraform in your local repository allowing you to execute terraform commands. 
+Esto debería inicializar terraform en su repositorio local permitiéndole ejecutar comandos de terraform.
 
-The next command you will run is: 
+El siguiente comando que ejecutará es:
 ```
 terraform plan
 ```
 ![image](/images/CXTFPlan.PNG)
 
-This will give you a break down of what will be created, modified, or destroyed by running terraform apply. 
+Esto le dará un desglose de lo que se creará, modificará o destruirá al ejecutar terraform apply.
 
-If everything looks good with the plan, you can probably guess what we're going to run next: 
+Si todo se ve bien con el plan, probablemente puedas adivinar lo que vamos a ejecutar a continuación:
 ```
 terraform apply
 ```
-You will need to confirm that you indeed want to make the changes so say "yes". 
+Deberá confirmar que realmente desea realizar los cambios, así que diga "yes".
 
 ![image](/images/CXTFApply.PNG)
 
-At this point, you should be able to go into the org and see that your changes have been made! Congrats, you've successfully created a skill using CX as Code.
+En este punto, debería poder ingresar a la organización y ver que se realizaron los cambios. Felicidades, ha creado con éxito una habilidad usando CX as Code.

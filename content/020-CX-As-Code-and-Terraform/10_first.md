@@ -1,29 +1,29 @@
 ---
-title: "Why use CX as Code?"
+title: "¿Por qué usar CX as Code?"
 chapter: false
 weight: 10
 ---
 
-## Why use CX as Code?
+## ¿Por qué usar CX as Code?
 
-You may be looking at some of the resource articles, or have skipped ahead a few pages in the workshop and asked yourself "Why would I go through all of this to simply construct a skill?"
+Puede que estés mirando algunos de los artículos de recursos, o que te hayas saltado algunas páginas del taller y te hayas preguntado "¿Por qué iba a pasar por todo esto para simplemente construir una habilidad?".
 
-While this workshop is intended to provide a foundational knowledge of CX as Code, the scope of CX as Code is well beyond spending 4 hours building a skill
+Si bien este taller está destinado a proporcionar un conocimiento fundacional de CX as Code, el alcance de CX as Code va mucho más allá de pasar 4 horas construyendo una habilidad
 
-The Genesys Cloud administrative functions within the GUI are designed to be incredibly simple, but there are numerous applications where CX as Code can bolster and automate your administrative capabilities
+Las funciones administrativas de Genesys Cloud dentro de la interfaz gráfica de usuario están diseñadas para ser increíblemente sencillas, pero existen numerosas aplicaciones en las que CX as Code puede reforzar y automatizar sus capacidades administrativas
 
 
-### Multi-Org Configuration
-CX as Code allows you to build once and deploy everywhere, accelerating multi-org deployments or configuration changes
+### Configuración Multi-Org
+CX as Code le permite compilar una vez y desplegar en todas partes, acelerando los despliegues multiorg o los cambios de configuración.
 
-### Ease of Administration
-CX as Code alleviates the need for administrators to worry about which configuration objects have what dependencies; Terraform will reference the requested resources and data sources to map out the logical order of how things need to be constructed based upon the required dependencies.
+### Facilidad de Administración
+CX as Code alivia la necesidad de que los administradores se preocupen acerca de qué objetos de configuración tienen qué dependencias; Terraform hará referencia a los recursos solicitados y a las fuentes de datos para trazar el orden lógico de cómo las cosas necesitan ser construidas basadas en las dependencias requeridas.
 
-> Below is an example of a construct phone resource with numerous dependencies, such as site and base information, that would need to be constructed prior to being able to build this phone. Terraform will map out the required construction sequence to ensure all dependencies are constructed in the order necessary to achieve the phone construction
+> A continuación se muestra un ejemplo de un recurso de teléfono de construcción con numerosas dependencias, tales como el sitio y la información de la base, que tendría que ser construido antes de ser capaz de construir este teléfono. Terraform mapeará la secuencia de construcción requerida para asegurar que todas las dependencias sean construidas en el orden necesario para lograr la construcción del teléfono.
 
 ![image](/images/CXDependencies.PNG)
 
-In addition to the use cases above, if any of these items are a concern to you, CX as Code may be the solution;
-1. Immutable infrastructure
-2. Provisioning, configuration management and DevOps tasks
-3. Building a CI/CD pipeline
+Además de los casos de uso anteriores, si alguno de estos puntos le preocupa, CX as Code puede ser la solución;
+1. Infraestructura inmutable
+2. Tareas de aprovisionamiento, gestión de la configuración y DevOps
+3. Construcción de una canalización CI/CD

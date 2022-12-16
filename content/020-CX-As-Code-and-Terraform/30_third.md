@@ -1,12 +1,12 @@
 ---
-title: "What is Terraform?"
+title: "¿Qué es Terraform?"
 chapter: false
 weight: 30
 ---
 
-## What is Terraform
+## ¿Qué es Terraform?
 
-Terraform is a tool for building and managing infrastructures. It takes in configuration files, which specify how the resources should be set up and configured. Terraform will generate an execution plan describing what needs to be done to reach the desired state. Terraform then applies the plan and builds the specified infrastructure. When new changes are made to the configuration files, Terraform is able to detect differences and generate incremental execution plans for changes.​
+Terraform es una herramienta para construir y gestionar infraestructuras. Admite archivos de configuración, que especifican cómo deben establecerse y configurarse los recursos. Terraform generará un plan de ejecución que describe lo que hay que hacer para alcanzar el estado deseado. A continuación, Terraform aplica el plan y construye la infraestructura especificada. Cuando se realizan nuevos cambios en los archivos de configuración, Terraform es capaz de detectar las diferencias y generar planes de ejecución incrementales para los cambios.
 
 ![image](/images/CXTerraform.PNG)
 

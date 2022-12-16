@@ -1,25 +1,25 @@
 ---
-title: "Introduction"
+title: "Introducción"
 chapter: true
 weight: 10
 ---
 
-# Automation with CX as Code
+# Automatización con CX as Code
 
-### **Overview**
+### **Visión general**
 
-In this workshop, we will cover 2 primary segments:
+En este taller, cubriremos 2 segmentos principales:
 
-- Overview session on CX as Code: We'll be walking through the fundamentals of CX as Code, Terraform, Resources, Data Source structures and pre-requisites.
+- Sesión general sobre CX as Code: Repasaremos los fundamentos de CX as Code, Terraform, recursos, estructuras de fuentes de datos y requisitos previos.
 
-- Guided Workshop: The second half of the workshop will be a guided walk-through where you will create a basic Terraform file structure and execute your first CX as Code resource**
+- Taller guiado: La segunda mitad del taller será un recorrido guiado en el que creará una estructura básica de archivos Terraform y ejecutará su primer recurso CX as Code**.
 
-### **Learning Objectives**
-- Define and differentiate CX as Code and Terraform
-- Understand basic CX as Code Resource and Data Source Structures
-- Install and access pre-requisites
-- Construct your Terraform files and execute your first resource
-## **Resources**
+### **Objetivos de aprendizaje**
+- Definir y diferenciar CX as Code y Terraform
+- Comprender las estructuras básicas de recursos y fuentes de datos de CX as Code
+- Instalar y acceder a los requisitos previos
+- Construir los archivos Terraform y ejecutar el primer recurso
+## **Recursos**
 
 [CX as Code Developer Blog](https://developer.genesys.cloud/blog/2021-04-16-cx-as-code/)
 

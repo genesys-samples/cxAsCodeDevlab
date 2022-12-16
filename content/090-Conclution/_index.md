@@ -1,23 +1,23 @@
 ---
-title: "Conclusion"
+title: "Conclusión"
 chapter: true
 weight: 90
 ---
 
-# Conclusion
+# Conclusión
 
-Congrats! You've reached the end of today's workshop.
->Yay you!
+¡Felicitaciones! Ha llegado al final del taller de hoy.
+>¡Vaya!
 
-With this knowledge you should be ready to move into resources with multiple dependencies, add additional orgs to the build and DEPLOY THE WORLD! With the knowledge you have gained from this workshop, we will be moving forward into future workshops with the foundations to begin building your CI/CD pipeline. To get an idea of what the power of CX code is, please watch the video below provided by our development team where we discuss CX as Code and its applications.
+Con este conocimiento, debería estar listo para pasar a recursos con múltiples dependencias, agregar organizaciones adicionales a la compilación e IMPLEMENTAR EL MUNDO. Con el conocimiento que ha obtenido de este taller, avanzaremos hacia futuros talleres con las bases para comenzar a construir pipeline de CI/CD. Para tener una idea de cuál es el poder del código CX, mire el video a continuación proporcionado por nuestro equipo de desarrollo donde analizamos CX as Code y sus aplicaciones.
 
-[A Preview of CX as Code by John Carnell, Manager of Genesys CX Developer Engagement](https://www.youtube.com/watch?v=ol_8HYSGmGg)
+[Una vista previa de CX as Code por John Carnell, Gerente Genesys CX Developer Engagement](https://www.youtube.com/watch?v=ol_8HYSGmGg)
 
-You can also visit our public [Github Blueprint Repository](https://github.com/GenesysCloudBlueprints) for various CX as Code blueprints to begin dabbling in more advanced functions like CX as Code and Archy.
+También puede visitar [Github Blueprint Repository](https://github.com/GenesysCloudBlueprints) para varios planos de CX as Code para empezar a incursionar en funciones más avanzadas como CX as Code y Archy.
 
-Following this workshop, we will move into more depth on CX as Code for cases incorporating data actions, architect flows and provisioning Oauth Clients utilizing tools like Postman.
+Después de este taller, profundizaremos en CX as Code para casos que incorporen acciones de datos, flujos de arquitectura y aprovisionamiento de clientes Oauth utilizando herramientas como Postman.
 
-Thanks for taking the time to complete this workshop! If you have any further questions please reach out to our publishers of this session:
+Gracias por tomarse el tiempo para completar este taller. Si tiene más preguntas, por favor contacta con nuestros editores de esta sesión:
 
 TJ Mouslmani at tj.mouslmani@genesys.com or
 Mathew Danish at mathew.danish@genesys.com

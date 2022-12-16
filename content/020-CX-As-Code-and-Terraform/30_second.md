@@ -1,18 +1,17 @@
 ---
-title: "What is CX As Code?"
+title: "¿Qué es CX As Code?"
 chapter: false
 weight: 20
 ---
 
-## What is CX as Code?
+## ¿Qué es CX As Code?
 
-CX as Code is a configuration tool that allows you to define Genesys Cloud objects such as Queues, Skills, Users, etc. in plain text files and then apply that configuration across a single or multiple Genesys Cloud CX organizations.
+CX as Code es una herramienta de configuración que le permite definir objetos de Genesys Cloud como Colas, Habilidades, Usuarios, etc. en archivos de texto plano y luego aplicar esa configuración en una o varias organizaciones de Genesys Cloud CX.
 
-Uses for CX as code could be:
-- Provisioning of a Genesys CX organization's initial configurations
-- Deployment of CX infrastructure accross multiple Genesys CX organizations
-- Replication of core CX infrastructure to a Disaster Recovery (DR) Environment
-
+Los usos de CX as code podrían ser:
+- Aprovisionamiento de las configuraciones iniciales de una organización Genesys CX.
+- Despliegue de la infraestructura CX en múltiples organizaciones Genesys CX
+- Replicación de la infraestructura central de CX en un entorno de recuperación ante desastres (DR)
 
 
 ![CXasCodeOverview](/images/CXasCodeOverview.jpg)
@@ -20,34 +19,34 @@ Uses for CX as code could be:
 
 ##
 
-## CX as Code Resources
+## Recursos CX as Code 
 
-CX as Code resources are used to **create** configuration components using inputs (such as the name of a skill), however; some resources have numerous dependencies, or configuration objects that must exist or be created in tandem for the resource to be created.
+Los recursos CX as Code se utilizan para **crear** componentes de configuración utilizando entradas (como el nombre de una habilidad), sin embargo; algunos recursos tienen numerosas dependencias, u objetos de configuración que deben existir o crearse en conjunto para que el recurso sea creado.
 
 
 
-> Below is an example of a resource with various inputs (name, description) and data source dependencies (queue_flow_id, whisper_prompt_id)
+> A continuación se muestra un ejemplo de un recurso con varias entradas (nombre, descripción) y dependencias de fuentes de datos (queue_flow_id, whisper_prompt_id)
 
 ![image](/images/CXResource.PNG)
 
-## CX as Code Data Sources
+## Fuentes de datos CX as Code
 
-Data Sources are similar to GET Requests, allowing you to GET information that already exists on the platform to be referenced within resources by component name as shown below
+Las fuentes de datos son similares a las solicitudes GET, permitiéndole obtener información que ya existe en la plataforma para ser referenciada dentro de los recursos por el nombre del componente como se muestra a continuación
 
-> Below is an example of a data source, we are retrieving the welcome greeting by its name "Welcome_Greeting", this can be then referenced in the previous resource example to populate the whisper prompt for the queue
+> A continuación se muestra un ejemplo de una fuente de datos, estamos recuperando el saludo de bienvenida por su nombre "Welcome_Greeting", esto puede ser referenciado en el ejemplo de recurso anterior para rellenar el aviso de susurro (whisper prompt) para la cola.
 
 ![image](/images/CXDataSource.PNG)
 
-## GitHub Hosting Tools for CX as Code
+## Herramientas de alojamiento en GitHub para CX as Code
 
-In this course we will be using Github as a repository hosting provider in order to not only host but pull down or share previously developed blueprints for different use cases as found on the Genesys Developer Center.
+En este curso utilizaremos Github como proveedor de alojamiento de repositorios, no sólo para alojar, sino también para extraer o compartir planos previamente desarrollados para diferentes casos de uso, tal y como se encuentran en el Centro de Desarrolladores de Genesys.
 
-GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere. If this is your first time working with Github, we will move through the link below together on some of the basic termonology, use of Github and scenarios of why Github is useful for you and your team. 
+GitHub es una plataforma de alojamiento de código para el control de versiones y la colaboración. Le permite a usted y a otros trabajar juntos en proyectos desde cualquier lugar. Si esta es la primera vez que trabaja con Github, vamos a avanzar juntos a través del siguiente enlace en algunos de los termonología básica, el uso de Github y escenarios de por qué Github es útil para usted y su equipo. 
 
-[Getting Started with Github](https://docs.github.com/en/get-started/quickstart/hello-world)
+[Primeros pasos con Github](https://docs.github.com/en/get-started/quickstart/hello-world)
 
-## Auth Access Requirements
+## Requisitos de acceso a la autenticación
 
-Within resources on the terraform registry you will see a defined list of API access requirements for the Oauth client you've constructed which will outline the permissions your Oauth client requires to execute the specific resource you are reviewing
+Dentro de los recursos en el registro terraform verá una lista definida de los requisitos de acceso a la API para el cliente Oauth que ha creado, que describen los permisos que su cliente Oauth requiere para ejecutar el recurso específico que está revisando
 
 ![image](/images/CXAuthReq.PNG)

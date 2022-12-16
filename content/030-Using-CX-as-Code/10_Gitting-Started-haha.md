@@ -1,54 +1,54 @@
 ---
-title: "Gitting Started .. Git it?"
+title: "Empezar a trabajar"
 chapter: false
 weight: 10
 ---
 
-## Create a local file repository
+## Crear un repositorio local de archivos
 
-First Things first, we will be creating a local file repository or "repo". This is fancy talk for creating a folder locally on your machine that will be used to store code and development projects. Storing code on your machine allows you to work on and make changes to your project before pushing your changes to a GitHub repository where the pipeline configuration resides. 
+Lo primero es lo primero, vamos a crear un repositorio local de archivos o "repo". Esto es una forma elegante de crear una carpeta local en tu máquina que se utilizará para almacenar código y proyectos de desarrollo. El almacenamiento de código en su máquina le permite trabajar y realizar cambios en su proyecto antes de empujar sus cambios a un repositorio de GitHub, donde reside la configuración fuente. 
 
 
-> It is best practice to not include spaces in the name of this folder, or files in general while developing. Instead consider naming files as: "ThisFile" or "This_File"
+> Es una buena práctica no incluir espacios en el nombre de esta carpeta, o archivos en general durante el desarrollo. En su lugar considere nombrar los archivos como: "ThisFile" o "This_File".
 
-## Open this folder within VSCode
+## Abra esta carpeta en VSCode
 
-You can either right click within this folder and select “Open with code” or navigate to it from VSCode Directly
+Puede hacer clic con el botón derecho del ratón dentro de esta carpeta y seleccionar "Abrir con código" o navegar hasta ella desde VSCode Directly
 
 ![image](/images/CXFolderNav.PNG)
 
-## Create an OAuth Client
-Generate a client credentials Oauth client in the Genesys Cloud admin panel.​
+## Crear un cliente OAuth
+Genere un cliente Oauth con credenciales de cliente en el panel de administración de Genesys Cloud.
 
-The roles tab is where you specify the permissions this client will have.
-> it is best practice to limit the permissions of clients to only their required functions
+La pestaña roles es donde se especifican los permisos que tendrá este cliente.
+> es una buena práctica limitar los permisos de los clientes a sólo sus funciones requeridas
 
 ![image](/images/CXAuthClient.PNG)
 
-## Clone Your Repository
+## Clonar su repositorio
 
-Here, we will walk through how to clone your Terraform repository from the provided GitHub repo [here](https://github.com/MyPureCloud/terraform-provider-genesyscloud)
+Aquí, vamos a ver cómo clonar su repositorio Terraform desde el repositorio GitHub proporcionado [aquí](https://github.com/MyPureCloud/terraform-provider-genesyscloud)
 
-To start, there are two ways to clone down your repository. The first is to fork the repository and the second is to clone the repository directly. Here, we reccomend forking the repository first, then cloning it down to your machine within VS Code.
+Para empezar, hay dos maneras de clonar su repositorio. La primera es bifurcar el repositorio y la segunda es clonar el repositorio directamente. En este caso, recomendamos primero bifurcar el repositorio, y luego clonarlo en su máquina dentro de VS Code.
 
-You will notice within Github, there a button to fork the repository to your github account on the top right side:
+Usted notará dentro de Github, hay un botón para bifurcar (fork) el repositorio a su cuenta de Github en la parte superior derecha:
 
 ![image](/images/GitHubFork.png)
 
-Once you have selected fork, you will be brought to a page where you can select where you would like your repository to reside within GitHub and create your forked repository
+Una vez que haya seleccionado fork, accederá a una página en la que podrá seleccionar dónde quiere que resida su repositorio dentro de GitHub y crear su repositorio bifurcado (forked) 
 
 ![image](/images/CreateFork.png)
 
-Great Job! You've now forked the repository. Now its time to clone it to your local machine to start working with the resources provided. Before doing so, ensure you have your file open within GITHub and have properly configured your machine for use with GIThub, terraform, and VScode. Once you're ready, we start by copying the HTTPS link found under the code button in GitHub as shown below:
+¡Buen trabajo! Ya ha creado el repositorio. Ahora es el momento de clonarlo en su máquina local para empezar a trabajar con los recursos proporcionados. Antes de hacerlo, asegúrese de tener su archivo abierto en GITHub y de haber configurado correctamente su máquina para usar GIThub, terraform y VScode. Una vez que esté listo, comenzamos copiando el enlace HTTPS que se encuentra debajo del botón de código en GitHub como se muestra a continuación:
 
 ![image](/images/GitCloneFork.png)
 
-Now, we go to VS code where you have opened the file your repo will live within your local machine. Within VS Code, we open a new terminal to run the command "GIT Clone" to pull the repository to your local machine as seen below:
+Ahora, nos vamos a VS code donde hemos abierto el archivo donde vivirá nuestro repositorio dentro de nuestra máquina local. Dentro de VS Code, abrimos una nueva terminal para ejecutar el comando "GIT Clone" para extraer el repositorio a su máquina local como se ve a continuación:
 
 ![image](/images/VSTerminal.png)
 
-With the terminal now open we will run the following command:
+Con el terminal ahora abierto ejecutaremos el siguiente comando:
 
 ![image](/images/GITclonecommand.png)
 
-> **And there you go! You have now successfully cloned down a repository to your local machine to start working on your first terraform scripts. In the next module, we will work through some example terraform scripts getting started with the basics of creating your pipeline of code for configuring your Genesys CX deployments** 
+> **¡Y ya está! Ahora ha clonado con éxito un repositorio en su máquina local para empezar a trabajar en sus primeros scripts terraform. En el siguiente módulo, trabajaremos con algunos scripts terraform de ejemplo para empezar con los fundamentos de la creación de su canalización de código para configurar sus despliegues de Genesys CX.** 

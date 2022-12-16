@@ -1,19 +1,19 @@
 ---
-title: "CX as Code and Terraform"
+title: "CX as Code y Terraform"
 chapter: true
 weight: 20
 ---
 
-## Defining and Differentiating CX as Code and Terraform
+## Definición y diferenciación de CX as Code y Terraform
 
-In this section you will learn to define and differentiate the various elements of CX as Code and Terraform
+En esta sección aprenderá a definir y diferenciar los distintos elementos de CX as Code (CX como código) y Terraform.
 
-The concept of CX as Code embodies a DevOps methdology where the end state would be to build a pipeline of code managed within Github can push changes and configurations to multiple Genesys CX orgs. Below are different pages that further discuss the concept of CX as Code, Terraform and why CX as code can be a benificial tool.
+El concepto de CX as Code encarna una metodología DevOps en la que el estado final sería construir una canalización de código gestionada dentro de Github que pueda empujar cambios y configuraciones a múltiples orgs de Genesys CX. A continuación se presentan diferentes páginas que discuten más a fondo el concepto de CX as Code, Terraform y por qué CX as Code puede ser una herramienta beneficiosa.
 
-### Index
+### Índice
 
-[What is CX as Code?](020-cx-as-code-and-terraform/10_first.html)
+[¿Qué es CX as Code?](020-cx-as-code-and-terraform/10_first.html)
 
-[What is Terraform?](020-cx-as-code-and-terraform/20_second.html)
+[¿Qué es Terraform?](020-cx-as-code-and-terraform/20_second.html)
 
-[Why Use CX as Code?](020-cx-as-code-and-terraform/30_third.html)
+[¿Por qué usar CX as Code?](020-cx-as-code-and-terraform/30_third.html)

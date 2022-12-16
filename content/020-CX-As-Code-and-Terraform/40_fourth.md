@@ -1,124 +1,124 @@
 ---
-title: "Resources Configuration"
+title: "Configuración de Recursos"
 chapter: false
 weight: 40
 ---
 
-## What You Will Need Getting Started
+## ¿Qué necesitará para empezar?
 
-Before getting hands on with CX as code, there are resources and prerequisites we will need to take care of first. Below you will find the resources available, varying depending on the OS you are currently utilizing. 
+Antes de ponernos manos a la obra con CX as Code, debemos tener en cuenta una serie de recursos y requisitos previos. A continuación encontrará los recursos disponibles, que varían en función del sistema operativo que esté utilizando.
 
 # Windows
 
 ### Visual Studio Code
 
-You may download VS Code directly -->  **[here](https://code.visualstudio.com/download)**
+Puede descargar directamente VS Code -->  **[Aquí](https://code.visualstudio.com/download)**
 
-### GitHub and GIT
+### GitHub y GIT
 
-To Start we will need to create a Github Account. If you already have a github account and SSH key generated, you may skip this step. If you do not have a Github Account, please follow the following steps:
+Para empezar necesitaremos crear una cuenta de Github. Si ya tiene una cuenta de Github y una clave SSH generada, puede saltarse este paso. Si no tiene una cuenta de Github, por favor siga los siguientes pasos:
 
-Creating an account
-To sign up for an account on GitHub.com, navigate to **[Github.com](https://github.com/)** and follow the prompts.
+Crear una cuenta
+Para crear una cuenta en GitHub.com, vaya a **[Github.com](https://github.com/)** y siga las instrucciones.
 
-Install Git on Windows:
+Instalar Git en Windows:
 
-- Navigate to the latest Git for Windows installer and download the latest version found --> **[here](https://gitforwindows.org/)**
-- Once the installer has started, follow the instructions as provided in the Git Setup wizard screen until the installation is complete.
-- open the windows command prompt (or Git Bash if you selected not to use the standard Git Windows Command Prompt during the Git installation).
-- Type git version to verify Git was installed.
+- Navegue hasta el último instalador de Git para Windows y descargue la última versión encontrada --> **[aquí](https://gitforwindows.org/)**
+- Una vez iniciado el instalador, siga las instrucciones que aparecen en la pantalla del asistente de instalación de Git hasta completar la instalación.
+- Abra el símbolo del sistema de Windows (o Git Bash si seleccionó no utilizar el símbolo del sistema estándar de Windows durante la instalación de Git).
+- Escriba git version para verificar que Git fue instalado.
 
-Note: git-scm is a popular and recommended resource for downloading Git for Windows. The advantage of downloading Git from git-scm is that your download automatically starts with the latest version of Git included with the recommended command prompt, Git Bash . The download source is the same Git for Windows installer as referenced in the steps above.
+Nota: git-scm es un recurso popular y recomendado para descargar Git para Windows. La ventaja de descargar Git desde git-scm es que su descarga se inicia automáticamente con la última versión de Git incluida con el símbolo del sistema recomendado, Git Bash . La fuente de descarga es el mismo instalador de Git para Windows al que se hace referencia en los pasos anteriores.
 
-##### Generating a new SSH key and adding it to the ssh-agent
+##### Generar una nueva clave SSH y añadirla al ssh-agent
 
-Documentation on this set can be found **[here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)**
+Encontrará documentación sobre este conjunto **[aquí](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)**
 
-There are two primary methods of cloning from Github, SSH and HTTPS which each require configuration
+Hay dos métodos principales de clonación desde Github, SSH y HTTPS, cada uno de los cuales requiere configuración
 
-Connecting over SSH:
+Conexión a través de SSH:
 
-- [Cloning with SSH urls](https://docs.github.com/en/github/getting-started-with-github/about-remote-repositories/#cloning-with-ssh-urls)
-- [Generating a new SSH Key](https://docs.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+- [Clonación con urls SSH](https://docs.github.com/en/github/getting-started-with-github/about-remote-repositories/#cloning-with-ssh-urls)
+- [Generar una nueva clave SSH](https://docs.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
-And 
+Y 
 
-Connecting over HTTPS:
+Conexión a través de HTTPS:
 
-- [Cloning with SSH urls](https://docs.github.com/en/github/getting-started-with-github/about-remote-repositories/#cloning-with-https-urls)
-- [Caching yout GitHub Credentials in Git](https://docs.github.com/en/github/getting-started-with-github/caching-your-github-credentials-in-git)
+- [Clonación con urls SSH](https://docs.github.com/en/github/getting-started-with-github/about-remote-repositories/#cloning-with-https-urls)
+- [Guardar en caché tus credenciales de GitHub en Git](https://docs.github.com/en/github/getting-started-with-github/caching-your-github-credentials-in-git)
 
 
 ### Terraform
 
-To get Started with Terraform, we will follow the link below to downloading it to your machine
+Para empezar con Terraform, seguiremos el siguiente enlace para descargarlo en su máquina
 
-For windows, you can follow the terraform download instrictions found on the terraform site **[here](https://www.terraform.io/downloads)**
+Para windows, puede seguir las instrucciones de descarga de terraform que se encuentran en el sitio de terraform **[Aquí](https://www.terraform.io/downloads)**
 
 
-Note that this download process can take a while, allow anywhere from 10-30 minutes for this download to take place
+Tenga en cuenta que este proceso de descarga puede tardar un poco, espere entre 10 y 30 minutos.
 
 # MAC OS
 
 ### Visual Studio Code
 
-You may download VS Code directly -->  **[here](https://code.visualstudio.com/download)**
+Puede descargar directamente VS Code -->  **[Aquí](https://code.visualstudio.com/download)**
 
-### GitHub and GIT
+### GitHub y GIT
 
 ##### GitHub:
 
-Creating an account
-To sign up for an account on GitHub.com, navigate to [Github.com](https://github.com/) and follow the prompts.
+Crear una cuenta
+Para crear una cuenta en GitHub.com, vaya a [Github.com](https://github.com/)** y siga las instrucciones.
 
 ##### GIT
-Most versions of MacOS will already have Git installed, and you can activate it through the terminal with git version. However, if you don't have Git installed for whatever reason, you can install the latest version of Git using one of several popular methods as listed below:
+La mayoría de las versiones de MacOS ya tendrán Git instalado, y puede activarlo a través del terminal con git version. Sin embargo, si no tiene Git instalado por cualquier razón, puede instalar la última versión de Git utilizando alguno de los métodos populares que se enumeran a continuación:
 
-- Navigate to the latest macOS Git Installer and download the latest version found **[here](https://sourceforge.net/projects/git-osx-installer/files/git-2.23.0-intel-universal-mavericks.dmg/download?use_mirror=autoselect)
-- Once the installer has started, follow the instructions as provided until the installation is complete.
-- Open the command prompt "terminal" and type git version to verify Git was installed.
+- Navegue hasta el último instalador de Git para macOS y descargue la última versión que se encuentra **[aquí](https://sourceforge.net/projects/git-osx-installer/files/git-2.23.0-intel-universal-mavericks.dmg/download?use_mirror=autoselect)
+- Una vez que se haya iniciado el instalador, siga las instrucciones que se indican hasta que se complete la instalación.
+- Abre el símbolo del sistema "terminal" y escribe git version para verificar que Git ha sido instalado.
 
-Note: git-scm is a popular and recommended resource for downloading Git on a Mac. The advantage of downloading Git from git-scm is that your download automatically starts with the latest version of Git. The download source is the same macOS Git Installer as referenced in the steps above.
+Nota: git-scm es un recurso popular y recomendado para descargar Git en un Mac. La ventaja de descargar Git desde git-scm es que la descarga se inicia automáticamente con la última versión de Git. La fuente de descarga es el mismo instalador de Git para macOS al que se hace referencia en los pasos anteriores.
 
-Install Git from Homebrew
-Homebrew is a popular package manager for macOS. If you already have Homwbrew installed, you can follow the below steps to install Git:
+Instalar Git desde Homebrew
+Homebrew es un popular gestor de paquetes para macOS. Si ya tiene Homwbrew instalado, puede seguir los siguientes pasos para instalar Git:
 
-Open up a terminal window and install Git using the following command: 
+Abra una ventana de terminal e instala Git utilizando el siguiente comando: 
 
 ```
 $brew install git
 ```
 
-Once the command output has completed, you can verify the installation by typing: 
+Una vez completada la salida del comando, puede verificar la instalación escribiendo: 
 
 ```
 git version.
 ```
 
-##### Generating a new SSH key and adding it to the ssh-agent
+##### Generar una nueva clave SSH y añadirla al ssh-agent
 
-Documentation on this set can be found **[here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)**
+Encontrará documentación sobre este conjunto **[aquí](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)**
 
-There are two primary methods of cloning from Github, SSH and HTTPS which each require configuration
+Existen dos métodos principales para clonar desde Github, SSH y HTTPS, cada uno de los cuales requiere configuración
 
-Connecting over SSH:
+Conexión a través de SSH:
 
-- [Cloning with SSH urls](https://docs.github.com/en/github/getting-started-with-github/about-remote-repositories/#cloning-with-ssh-urls)
-- [Generating a new SSH Key](https://docs.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+- [Clonación con urls SSH](https://docs.github.com/en/github/getting-started-with-github/about-remote-repositories/#cloning-with-ssh-urls)
+- [Generar una nueva clave SSH](https://docs.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
-And 
+Y
 
-Connecting over HTTPS:
+Conexión a través de HTTPS:
 
-- [Cloning with SSH urls](https://docs.github.com/en/github/getting-started-with-github/about-remote-repositories/#cloning-with-https-urls)
-- [Caching yout GitHub Credentials in Git](https://docs.github.com/en/github/getting-started-with-github/caching-your-github-credentials-in-git)
+- [Clonación con urls SSH](https://docs.github.com/en/github/getting-started-with-github/about-remote-repositories/#cloning-with-https-urls)
+- [Guardar en caché sus credenciales de GitHub en Git](https://docs.github.com/en/github/getting-started-with-github/caching-your-github-credentials-in-git)
 
 ### Terraform
 
-For mac, you will need to move through the following steps
+Para mac, deberá seguir los siguientes pasos
 
-- Download **[brew](https://brew.sh/)** and following the download instructions to properly configure brew on your Mac
-- once you have downloaded brew on your Mac OS, you may download terraform from the link provided above or paste the following commands into your command line
+- Descargue **[brew](https://brew.sh/)** y siga las instrucciones de descarga para configurar correctamente brew en su Mac
+- una vez que haya descargado brew en su Mac OS, puede descargar terraform desde el enlace proporcionado anteriormente o pegar los siguientes comandos en su línea de comandos
 
 ```
 $ brew tap hashicorp/tap

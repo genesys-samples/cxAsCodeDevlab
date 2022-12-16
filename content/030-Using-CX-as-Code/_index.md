@@ -1,13 +1,13 @@
 ---
-title: "Using CX as Code"
+title: "Usando CX as Code"
 chapter: true
 weight: 30
 ---
 
 
-In this section you will be walking through the installation and access of the prerequisites listed below, structuring your files and executing your first resource. This walkthrough of the initial set up in the different CX as Code tool will allow you to gain a base level understanding on getting started on your journey to building a full CI/CD pipeline. 
+En esta sección, recorrerá la instalación y el acceso a los requisitos previos que se enumeran a continuación, estructurará sus archivos y ejecutará su primer recurso. Este tutorial de la configuración inicial en las diferentes herramientas CX as Code le permitirá obtener un nivel de comprensión básico para comenzar su viaje hacia la creación de una canalización completa de CI/CD.
 
-## Prerequisites
+## Prerrequisitos
 | Access | Install | 
 | ----------- | ----------- |
 | Genesys Cloud (Admin Access)  | GitBash (or use VS Terminal) | 
